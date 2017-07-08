@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#101010</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#bce27f</color>
+    <color name="colorAccentSelected">#51544b</color>
+
+
+    <color name="colorPrimaryLight">#212121</color>
+    <color name="colorLightGrey">#303030</color>
+    <color name="colorLightestGrey">#545454</color>
+    <color name="colorLightGreyArrowDropDown">#767676</color>
+
+
+
+</resources>

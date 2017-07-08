@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryLight"
+    android:padding="10dp"
+    tools:context="com.geekyartists.newplotter.settings">
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorAccent"
+        android:text="Reset and Erase all data" />
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adViewsettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="@string/banner_ad_unit_id_about"
+        ads:adSize="340x320">
+    </com.google.android.gms.ads.NativeExpressAdView>
+</RelativeLayout>

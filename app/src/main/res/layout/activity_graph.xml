@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    tools:context="com.geekyartists.newplotter.GraphActivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryLight" />
+
+    <ListView
+        android:id="@+id/valuelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/graphview"
+        android:layout_margin="5dp"
+        android:dividerHeight="5.0sp"></ListView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewgraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_graph">
+
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

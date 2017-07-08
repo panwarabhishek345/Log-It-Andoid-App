@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.geekyartists.newplotter.Help">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Instructions" />
+
+    <TextView
+        android:id="@+id/helpcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_below="@id/instructions"
+        android:text=" " />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_main">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

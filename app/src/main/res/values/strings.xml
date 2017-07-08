@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Log It!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="banner_ad_unit_id_main">ca-app-pub-7528515959312214/5267038289</string>
+    <string name="banner_ad_unit_id_graph">ca-app-pub-7528515959312214/1755168687</string>
+    <string name="banner_ad_unit_id_about">ca-app-pub-7528515959312214/9359160683</string>
+
+</resources>
