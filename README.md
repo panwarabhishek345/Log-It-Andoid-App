@@ -12,6 +12,12 @@ Add, Rename and Delete categories at will
 Export data and backup to csv 
 Import data from CSV files
 
+ScreenShots:
+![alt text](https://github.com/panwarabhishek345/Log-It-Andoid-App/blob/master/ScreenShots/1.jpg)
+![alt text](https://github.com/panwarabhishek345/Log-It-Andoid-App/blob/master/ScreenShots/2.jpeg)
+![alt text](https://github.com/panwarabhishek345/Log-It-Andoid-App/blob/master/ScreenShots/3.jpg)
+
+
 Description
 
 Our lives are governed by numbers. Time, money, weight, calories and so much more. This simple and lightweight app is designed as a tool to help you keep a track of all these. With just a tap of a button you can record how much money you spent on that last meal, or how many calories you consumed. Or if you want log your weight every day (lost or lifted), this app will easily let you store all those entries and show them to you in the form of a convenient graph. The uses are endless, limited only by your own creativity. 
